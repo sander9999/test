@@ -7,6 +7,7 @@ test-job1:
   stage: test
   script:
     - echo "This job tests something"
+    - echo "dit is een toevoeging aan de test-job1"
 
 test-job2:
   stage: test
